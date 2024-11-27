@@ -85,6 +85,11 @@
       "import": "./dist/libav-webcodecs-avf.mjs",
       "default": "./dist/libav-webcodecs-avf.js",
       "types": "./dist/libav.types.d.ts"
+    },
+    "./zzh": {
+      "import": "./dist/libav-zzh.mjs",
+      "default": "./dist/libav-zzh.js",
+      "types": "./dist/libav.types.d.ts"
     }
   },
   "directories": {
