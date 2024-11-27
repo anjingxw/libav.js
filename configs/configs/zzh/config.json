@@ -1,9 +1,9 @@
 [
+    "codec-libopus",
+    "codec-libopenh264",
     "audio-filters",
     "swscale",
     "parser-h264",
     "decoder-h264",
-    "parser-opus",
-    "codec-libopus",
-    "codec-libopenh264"
+    "parser-opus"
 ]
