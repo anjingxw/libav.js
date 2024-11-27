@@ -918,9 +918,12 @@ build/inst/thr/cflags.txt:
 	echo -pthread -gsource-map > $@
 
 RELEASE_VARIANTS=\
-	default default-cli opus opus-af flac flac-af wav wav-af obsolete webm \
+	zzh
+
+#default default-cli opus opus-af flac flac-af wav wav-af obsolete webm \
 	webm-cli webm-vp9 webm-vp9-cli vp8-opus vp8-opus-avf vp9-opus \
 	vp9-opus-avf av1-opus av1-opus-avf webcodecs webcodecs-avf
+
 
 release: extract
 	mkdir -p dist/release
